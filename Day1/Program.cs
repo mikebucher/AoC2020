@@ -26,9 +26,9 @@ namespace Day1
 
             for (int i = 0; i < numbers.Count; i++)
             {
-                for (int j = 1; j < (numbers.Count - 1); j++)
+                for (int j = 0; j < numbers.Count; j++)
                 {
-                    for (int k = 2; k < numbers.Count - 2; k++)
+                    for (int k = 0; k < numbers.Count; k++)
                     {
                         if(i != j && i != k && j != k)
                         {
